@@ -1,0 +1,18 @@
+{
+    "name": "enzo/poo",
+    "description": "Une petite application qui permet de créer des cartes et de les visualiser",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Enzo\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angel Enzo",
+            "email": "angelenzo0@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

@@ -1,0 +1,32 @@
+# Ignore les fichiers générés par Composer
+/vendor/
+composer.lock
+
+# Ignore les fichiers temporaires
+*.log
+*.cache
+*.tmp
+
+# Ignore les fichiers de configuration locaux
+.env
+.env.local
+.env.*.local
+
+# Ignore les fichiers de l'IDE
+.idea/
+*.iml
+
+# Ignore les fichiers de l'éditeur de texte
+.vscode/
+*.swp
+*.swo
+
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers générés par PHPUnit
+phpunit.result.cache
+
+# Ignore les fichiers de debug ou de build
+/build/
